@@ -1,4 +1,4 @@
-data_summary = data_summary.rename(columns={
+renamed_cols = {
     'tucaseid': 'case_id',
     'TUFINLWGT': 'stat_weight',
     'TRYHHCHILD': 'age_youngest_child',
@@ -492,4 +492,4 @@ data_summary = data_summary.rename(columns={
     "t500106": "Gap/can't remember",
     "t500107": "Unable to code activity at 1st tier",
     "t509999": "Data codes, n.e.c.*"
-})
+}
